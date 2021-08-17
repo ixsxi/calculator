@@ -11,9 +11,10 @@
 
 
         <EditText
+            android:id="@+id/value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="12345+3"
+            android:text=""
             android:textSize="80px"
             android:textAlignment="textEnd"
             />
@@ -27,6 +28,7 @@
         >
 
         <Button
+            android:id="@+id/seven"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:layout_weight="1"
@@ -36,6 +38,7 @@
             />
 
         <Button
+            android:id="@+id/eight"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="8"
@@ -44,6 +47,7 @@
             android:layout_margin="6px"
             />
         <Button
+            android:id="@+id/nine"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="9"
@@ -52,6 +56,7 @@
             android:layout_margin="6px"
             />
         <Button
+            android:id="@+id/divide"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="/"
@@ -68,6 +73,7 @@
         android:orientation="horizontal"
         >
         <Button
+            android:id="@+id/four"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="4"
@@ -77,6 +83,7 @@
             />
 
         <Button
+            android:id="@+id/five"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="5"
@@ -85,6 +92,7 @@
             android:layout_margin="6px"
             />
         <Button
+            android:id="@+id/six"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="6"
@@ -93,6 +101,7 @@
             android:textSize="50px"
             />
         <Button
+            android:id="@+id/multiply"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="*"
@@ -110,6 +119,7 @@
 
         >
         <Button
+            android:id="@+id/one"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="1"
@@ -119,6 +129,7 @@
             />
 
         <Button
+            android:id="@+id/two"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="2"
@@ -127,6 +138,7 @@
             android:textSize="50px"
             />
         <Button
+            android:id="@+id/three"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="3"
@@ -135,6 +147,7 @@
             android:textSize="50px"
             />
         <Button
+            android:id="@+id/minus"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:layout_margin="6px"
@@ -152,6 +165,7 @@
         >
 
         <Button
+            android:id="@+id/zero"
             android:layout_width="264dp"
             android:layout_height="250px"
             android:text="0"
@@ -161,9 +175,39 @@
             />
 
         <Button
+            android:id="@+id/plus"
             android:layout_width="wrap_content"
             android:layout_height="250px"
             android:text="+"
+            android:layout_weight="1"
+            android:layout_margin="6px"
+            android:textSize="50px"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="244dp"
+            android:layout_height="250px"
+            android:layout_margin="6px"
+            android:layout_weight="2"
+            android:text="c"
+            android:textSize="50px" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="250px"
+            android:text="="
             android:layout_weight="1"
             android:layout_margin="6px"
             android:textSize="50px"
